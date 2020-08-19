@@ -110,9 +110,9 @@ form{
     margin-bottom: 20px
 }
 
-@media(max-width:768px){
+@media(max-width:414px){
     .container{
-        width: 270px;
+        width: 350px;
     }
     ul{
         display: flex;
@@ -121,7 +121,7 @@ form{
         height: 40px;
         background: rgb(26, 25, 25);
         padding-top: 10px;
-        width: 230px;
+        width: 310px;
         margin-left: 0px
     
         
@@ -148,7 +148,7 @@ form{
     .blogheader {
         margin-top: 0px;
         height: 240px;
-        width: 270px
+        width: 350px
        
     }
 
@@ -171,7 +171,7 @@ form{
         font-size: 25px;
         margin-left: 10px;
         margin-top: 20px;
-        width: 270px
+        width: 350px
     }
     .blogcontent p span{
         font-style: italic;
@@ -182,7 +182,7 @@ form{
     }
     .blogbody img{
         height: 500px;
-        width: 270px;
+        width: 350px;
         margin-left: 0px;
     }
     .blogbody p span{
@@ -192,7 +192,288 @@ form{
         
     }
     .blogbody p{
-        margin-top: 5px
+        margin-top: 5px;
+        
+    }
+    .blogbody{
+        padding-right: 5px
+    }
+ 
+    #button{
+        margin-top: 70px;
+        margin-left: 10px
+    }
+    .comments{
+        margin-top: 50px;
+        margin-left:0px;
+        
+    }
+    textarea{
+        width: 200px
+    }
+
+    .credentials{
+        font-family: Franklin Gothic Medium;
+        margin-left: 60px
+    }
+    .comments div{
+        margin-left: 30px;
+        width:250px
+    }
+    .commentsList h2{
+        margin-left: 0px;
+        margin-top: 50px
+    }
+    .commentsList p{
+        margin-left: 0px;
+        margin-bottom: 20px
+    }
+   
+    .commentDisplayed h3{
+        width: 50px;
+        padding-right: 10px;
+        font-size: 15px
+    }
+    .commenter{
+        font-size: 15px
+    }
+    
+}
+
+@media(max-width:1024px){
+    .blogbody img{
+     margin-left:50px;
+     width: 900px;
+     margin-bottom:10px
+    }
+    .comments{
+        margin-left:50px
+    }
+    .blogheader{
+        margin-top:0px;
+        padding-bottom:10px
+    }
+    
+}
+
+@media(max-width:768px){
+    .container{
+        width: 720px;
+        padding: 10px
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        height: 40px;
+        background: rgb(26, 25, 25);
+        padding-top: 10px;
+        width: 680px;
+        margin-left: 0px
+    
+        
+    
+        
+    }
+     ul li a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 20px;
+        
+        
+    }
+    ul h2{
+        
+        color: white;
+        margin-left: 200px;
+        padding-bottom: 25px;
+        height: 10px;
+        margin-top: 0px
+    }
+
+    .blogheader {
+        margin-top: 0px;
+        height: 150px;
+        width: 720px
+       
+    }
+
+    .blogheader img{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .blogheaderParagraph{
+        margin-top: 5px;
+    }
+    .blogtitle{
+        color:black;
+        font-family: Verdana;
+        margin-right: 30px;
+    }
+    .blogcontent p{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 700px
+    }
+    .blogcontent p span{
+        font-style: italic;
+    }
+    .africacontinent{
+        width: 200px;
+        margin-left: 0px
+    }
+    .blogbody img{
+        height: 500px;
+        width: 700px;
+        margin-left: 0px;
+    }
+    .blogbody p span{
+        margin-left: 500px;
+        font-style: italic;
+        color: green;
+        
+    }
+    .blogbody p{
+        margin-top: 5px;
+        
+    }
+    .blogbody{
+        padding-right: 5px
+    }
+ 
+    #button{
+        margin-top: 70px;
+        margin-left: 10px
+    }
+    .comments{
+        margin-top: 50px;
+        margin-left:0px;
+        
+    }
+    textarea{
+        width: 200px
+    }
+
+    .credentials{
+        font-family: Franklin Gothic Medium;
+        margin-left: 60px
+    }
+    .comments div{
+        margin-left: 30px;
+        width:250px
+    }
+    .commentsList h2{
+        margin-left: 0px;
+        margin-top: 50px
+    }
+    .commentsList p{
+        margin-left: 0px;
+        margin-bottom: 20px
+    }
+   
+    .commentDisplayed h3{
+        width: 50px;
+        padding-right: 10px;
+        font-size: 15px
+    }
+    .commenter{
+        font-size: 15px
+    }
+    
+}
+
+@media(max-width:375px){
+    .container{
+        width: 350px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        height: 40px;
+        background: rgb(26, 25, 25);
+        padding-top: 10px;
+        width: 310px;
+        margin-left: 0px
+    
+        
+    
+        
+    }
+     ul li a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 20px;
+        
+        
+    }
+    ul h2{
+        display:none;
+        color: white;
+        margin-left: 0px;
+        padding-bottom: 25px;
+        height: 10px;
+        margin-top: 0px
+    }
+
+    .blogheader {
+        margin-top: 0px;
+        height: 200px;
+        width: 350px
+       
+    }
+
+    .blogheader img{
+        width: 40px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+
+    .blogheaderParagraph{
+        margin-top: 5px;
+    }
+    .blogtitle{
+        color:black;
+        font-family: Verdana;
+        margin-right: 30px;
+    }
+    .blogcontent p{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 350px
+    }
+    .blogcontent p span{
+        font-style: italic;
+    }
+    .africacontinent{
+        width: 200px;
+        margin-left: 0px
+    }
+    .blogbody img{
+        height: 500px;
+        width: 350px;
+        margin-left: 0px;
+    }
+    .blogbody p span{
+        margin-left: 500px;
+        font-style: italic;
+        color: green;
+        
+    }
+    .blogbody p{
+        margin-top: 5px;
+        
+    }
+    .blogbody{
+        padding-right: 5px
     }
  
     #button{
